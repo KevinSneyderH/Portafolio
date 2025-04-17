@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Hoja de Vida</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <h1>Mi Hoja de Vida</h1>
+            <nav>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="about.html">Acerca de mi</a></li>
+                    <li><a href="projects.html">Mis Proyectos</a></li>
+                    <li><a href="contact.html">Contácteme</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>¡Hola! Soy <span class="highlight">Kevin Hernández</span></h2>
+                    <p class="subtitle">Desarrollador Web</p>
+                    <p class="description">Bienvenido a mi hoja de vida digital. Aquí encontrarás información sobre mi
+                        experiencia, habilidades y proyectos.</p>
+                    <div class="cta-buttons">
+                        <a href="about.html" class="btn primary">Conóceme</a>
+                        <a href="contact.html" class="btn secondary">Contáctame</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image-container">
+                        <img src="img/profile.jpg" alt="Foto de perfil" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <h2 class="section-title">Mis Habilidades</h2>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Desarrollo Web</h3>
+                        <p>HTML, CSS, JavaScript, PHP, React</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Backend</h3>
+                        <p>Node.js, SpringBoot, Java, MySQL, PostgreSQL</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kevin Hernández. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/KevinSneyderH" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kevin-hernandez-45130b26b/" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B573133391213&text&type=phone_number&app_absent=0"
+                    aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

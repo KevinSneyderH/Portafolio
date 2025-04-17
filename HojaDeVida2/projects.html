@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Proyectos - Mi Hoja de Vida</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <h1>Mi Hoja de Vida</h1>
+            <nav>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Acerca de mi</a></li>
+                    <li><a href="projects.html" class="active">Mis Proyectos</a></li>
+                    <li><a href="contact.html">Contácteme</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects-hero">
+            <div class="container">
+                <h2 class="section-title">Mis Proyectos</h2>
+                <p class="section-description">Aquí encontrarás una selección de proyectos realizados por mi. Cada
+                    proyecto refleja mi pasión por el desarrollo web y el deseo de seguir aprendiendo.</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="web">Desarrollo Web</button>
+                    <button class="filter-btn" data-filter="app">Aplicaciones</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Proyecto 1 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="img/project1.jpg" alt="Proyecto 1">
+                            <div class="project-overlay">
+                                <a href="https://github.com/KevinSneyderH/ChatBot" class="project-link"
+                                    aria-label="Ver proyecto"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/KevinSneyderH/ChatBot.git" class="project-link"
+                                    aria-label="Ver código"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>ChatBot con SpringBoot</h3>
+                            <p class="project-category">Desarrollo Web</p>
+                            <p class="project-description">Un sitio web completamente responsivo desarrollado con el
+                                framework SpringBoot usando Ollama como modelo de AI para el chatbot para uso de
+                                estudiantes.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">Java</span>
+                                <span class="tag">SpringBoot</span>
+                                <span class="tag">Ollama AI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="img/project2.jpg" alt="Proyecto 2">
+                            <div class="project-overlay">
+                                <a href="https://github.com/KevinSneyderH/githubpagetest" class="project-link"
+                                    aria-label="Ver proyecto"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/KevinSneyderH/githubpagetest" class="project-link"
+                                    aria-label="Ver código"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Pagina Web para mostrar articulos</h3>
+                            <p class="project-category">Desarrollo Web</p>
+                            <p class="project-description">Pagina web para mostrar articulos de un blog. Incluye
+                                funcionalidad para agregar, editar y eliminar articulos.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">Java</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="project-card" data-category="app">
+                        <div class="project-image">
+                            <img src="img/project3.jpg" alt="Proyecto 3">
+                            <div class="project-overlay">
+                                <a href="https://github.com/KevinSneyderH/ParcialFinal" class="project-link"
+                                    aria-label="Ver proyecto"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/KevinSneyderH/ParcialFinal" class="project-link"
+                                    aria-label="Ver código"><i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Aplicación FIFA</h3>
+                            <p class="project-category">Aplicaciones</p>
+                            <p class="project-description">Una aplicación web completa con autenticación de usuarios,
+                                panel de administración Y funcionalidades para ver listados de partidos en una base de
+                                datos PostgreSQL.</p>
+                            <div class="project-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kevin Hernández. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/KevinSneyderH" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kevin-hernandez-45130b26b/" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B573133391213&text&type=phone_number&app_absent=0"
+                    aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

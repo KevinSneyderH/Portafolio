@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Mí - Mi Hoja de Vida</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <h1>Mi Hoja de Vida</h1>
+            <nav>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html" class="active">Acerca de mi</a></li>
+                    <li><a href="projects.html">Mis Proyectos</a></li>
+                    <li><a href="contact.html">Contácteme</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <div class="container">
+                <h2 class="section-title">Acerca de Mí</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="img/profile.jpg" alt="Mi foto" class="profile-image">
+                    </div>
+                    <div class="about-text">
+                        <h3>Kevin Hernández</h3>
+                        <p class="job-title">Desarrollador Web</p>
+                        <p class="about-description">
+                            Soy un desarrollador web con experiencia en la creación de sitios web y aplicaciones,
+                            me especializo en HTML, CSS, JavaScript y Java para el desarrollo de aplicaciones, estoy
+                            constantemente aprendiendo nuevas
+                            tecnologías para mejorar mis habilidades y conociemientos en el desarrollo web y de
+                            aplicaciones.
+                        </p>
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <span class="info-label">Edad:</span>
+                                <span class="info-value">20 años</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">kevin.sneyder.hernandez@email.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Teléfono:</span>
+                                <span class="info-value">+57 3133391213</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Ciudad:</span>
+                                <span class="info-value">Cúcuta, Colombia</span>
+                            </div>
+                        </div>
+                        <a href="img/CV.pdf" class="btn primary">Ver CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="container">
+                <h2 class="section-title">Educación</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Bachillerato</h3>
+                            <p class="timeline-date">2016 - 2021</p>
+                            <p class="timeline-institution">Colegio Comfanorte</p>
+
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Técnico en Diseño Gráfico</h3>
+                            <p class="timeline-date">2020 - 2021</p>
+                            <p class="timeline-institution">Universidad FESC</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Ingeniero en Sistemas</h3>
+                            <p class="timeline-date">2022 - Presente (7mo Semestre)</p>
+                            <p class="timeline-institution">Universidad Simón Bolívar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience">
+            <div class="container">
+                <h2 class="section-title">Experiencia Laboral</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Cumplimiento de Manifiesto de Carga Electronico</h3>
+                            <p class="timeline-date">2023 - Presente</p>
+                            <p class="timeline-institution">TransContinental</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kevin Hernández. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/KevinSneyderH" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kevin-hernandez-45130b26b/" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B573133391213&text&type=phone_number&app_absent=0"
+                    aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
